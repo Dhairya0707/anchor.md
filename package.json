@@ -1,0 +1,22 @@
+{
+  "name": "create-anchor-md",
+  "version": "1.0.0",
+  "description": "Initialize the anchor.md context management system in your project root.",
+  "main": "cli.js",
+  "bin": {
+    "create-anchor-md": "./cli.js"
+  },
+  "keywords": [
+    "context",
+    "prompt-engineering",
+    "developer-productivity",
+    "ai",
+    "project-management",
+    "context-window"
+  ],
+  "author": "Dhairya Darji",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
