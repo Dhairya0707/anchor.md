@@ -130,8 +130,9 @@ e.g. We already have a Stripe account set up.
    - `DECISIONS.md` → Why we chose this stack
    - `CONTEXT_MEMORY.md` → Initialize with current state
    - `TODO.md` → Full task breakdown
-4. After generating all files, confirm: "anchor.md system is ready. All context files generated."
-5. From now on, ALWAYS read all `anchor.md/` files before doing any task
+4. **Git Safety Check:** Verify or update the project's `.gitignore` file to ensure `anchor.md/` is ignored (preventing accidental context leaks).
+5. After generating all files, confirm: "anchor.md system is ready. All context files generated."
+6. From now on, ALWAYS read all `anchor.md/` files before doing any task
 
 **IF EXISTING PROJECT:**
 1. Read everything above carefully
@@ -140,6 +141,7 @@ e.g. We already have a Stripe account set up.
 4. In `CONTEXT_MEMORY.md` document what is already done
 5. In `TODO.md` document only what is remaining
 6. Ask clarifying questions if something is unclear before generating
+7. **Git Safety Check:** Verify or update the project's `.gitignore` file to ensure `anchor.md/` is ignored.
 
 **EVERY SESSION AFTER SETUP (MULTI-AGENT RULES):**
 - Always read `anchor.md/` files FIRST before doing anything
