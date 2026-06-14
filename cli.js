@@ -35,6 +35,24 @@ function main() {
       copyFolderRecursiveSync(sourceDir, targetDir);
     }
 
+    // Append anchor.md/ to target project's .gitignore
+    const gitignorePath = path.join(process.cwd(), '.gitignore');
+    const ignoreRule = '\n# anchor.md context folder\nanchor.md/\n';
+    try {
+      if (fs.existsSync(gitignorePath)) {
+        const gitignoreContent = fs.readFileSync(gitignorePath, 'utf-8');
+        if (!gitignoreContent.includes('anchor.md')) {
+          fs.appendFileSync(gitignorePath, ignoreRule);
+          console.log('Added anchor.md/ to .gitignore');
+        }
+      } else {
+        fs.writeFileSync(gitignorePath, ignoreRule, 'utf-8');
+        console.log('Created .gitignore and added anchor.md/');
+      }
+    } catch (err) {
+      console.warn('Warning: Could not update .gitignore:', err.message);
+    }
+
     console.log('\n✅ anchor.md system initialized successfully!');
     console.log(`Created context directory at: ${targetDir}`);
     console.log('\nNext steps:\n1. Open anchor.md/@main.md to fill project parameters.\n2. Tag (@main.md) in your IDE AI chat to generate project specifications.');

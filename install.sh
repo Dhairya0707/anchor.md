@@ -67,4 +67,16 @@ for inst in "${INSTRUCTIONS[@]}"; do
     curl -fsSL "$BASE_URL/INSTRUCTIONS/$inst" -o "$INST_DIR/$inst"
 done
 
+# Add anchor.md to .gitignore
+GITIGNORE=".gitignore"
+if [ -f "$GITIGNORE" ]; then
+    if ! grep -q "anchor.md" "$GITIGNORE"; then
+        echo -e "\n# anchor.md context folder\nanchor.md/" >> "$GITIGNORE"
+        echo "Added anchor.md/ to .gitignore"
+    fi
+else
+    echo -e "# anchor.md context folder\nanchor.md/" > "$GITIGNORE"
+    echo "Created .gitignore and added anchor.md/"
+fi
+
 echo -e "\n✅ anchor.md initialized successfully! Open anchor.md/@main.md to get started."
