@@ -4,13 +4,13 @@ set -e
 # ==============================================================================
 # anchor.md Installer Script
 # ==============================================================================
-# USAGE: curl -sSL https://raw.githubusercontent.com/your-username/anchor.md/main/install.sh | bash
+# USAGE: curl -sSL https://raw.githubusercontent.com/Dhairya0707/anchor.md/main/install.sh | bash
 #
-# IMPORTANT: Replace "your-username" below with your actual GitHub username
+# IMPORTANT: Replace "Dhairya0707" below with your actual GitHub username
 #            before sharing this script with others!
 # ==============================================================================
 
-GITHUB_USERNAME="your-username"
+GITHUB_USERNAME="Dhairya0707"
 REPO_NAME="anchor.md"
 BRANCH_NAME="main"
 
