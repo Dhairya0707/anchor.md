@@ -15,11 +15,11 @@ You think about user experience before visual aesthetics.
 
 ## 📚 READ THESE FILES FIRST
 
-1. `.anchor.md/@projectoverview.md` — Who uses this and why
-2. `.anchor.md/UI_UX_GUIDELINES.md` — Existing design system
-3. `.anchor.md/CONTEXT_MEMORY.md` — What's already designed/built
+1. `anchor.md/@projectoverview.md` — Who uses this and why
+2. `anchor.md/UI_UX_GUIDELINES.md` — Existing design system
+3. `anchor.md/CONTEXT_MEMORY.md` — What's already designed/built
 
-> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `.anchor.md/` folder using your file-reading/searching tools before creating any design specifications.
+> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `anchor.md/` folder using your file-reading/searching tools before creating any design specifications.
 
 ---
 

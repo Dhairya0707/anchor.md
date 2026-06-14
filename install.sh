@@ -14,12 +14,12 @@ GITHUB_USERNAME="Dhairya0707"
 REPO_NAME="anchor.md"
 BRANCH_NAME="main"
 
-ANCHOR_DIR=".anchor.md"
+ANCHOR_DIR="anchor.md"
 INST_DIR="$ANCHOR_DIR/INSTRUCTIONS"
 
-# Check if .anchor.md folder already exists
+# Check if anchor.md folder already exists
 if [ -d "$ANCHOR_DIR" ]; then
-    echo "⚠️  .anchor.md folder already exists in the current directory. Skipping setup."
+    echo "⚠️  anchor.md folder already exists in the current directory. Skipping setup."
     exit 0
 fi
 
@@ -67,4 +67,4 @@ for inst in "${INSTRUCTIONS[@]}"; do
     curl -fsSL "$BASE_URL/INSTRUCTIONS/$inst" -o "$INST_DIR/$inst"
 done
 
-echo -e "\n✅ anchor.md initialized successfully! Open .anchor.md/@main.md to get started."
+echo -e "\n✅ anchor.md initialized successfully! Open anchor.md/@main.md to get started."

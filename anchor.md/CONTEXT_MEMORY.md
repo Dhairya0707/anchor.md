@@ -2,7 +2,7 @@
 > 🤖 AI MAINTAINED — AI updates this after EVERY session without fail.
 > Last Updated: `[AI fills: date + time]`
 > Last AI Used: `[AI fills: model name e.g. Claude 3.5 Sonnet]`
-> Connected Files: ALL files in `.anchor.md/`
+> Connected Files: ALL files in `anchor.md/`
 
 ---
 > 📌 **RULE FOR AI**
@@ -11,7 +11,7 @@
 > Without this file, the next AI session starts blind.
 > Treat this as the MOST IMPORTANT file in the entire system.
 >
-> **At session start:** If this file is not already in your context, locate and read it from the workspace (.anchor.md/CONTEXT_MEMORY.md) first to understand the current state.
+> **At session start:** If this file is not already in your context, locate and read it from the workspace (anchor.md/CONTEXT_MEMORY.md) first to understand the current state.
 > **At session end:** Update every section that changed.
 ---
 

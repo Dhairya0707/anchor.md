@@ -1,6 +1,6 @@
 # @backend-dev.md — Backend Developer Instructions
 > 📖 ROLE PROMPT — Paste this when doing backend work
-> Connected Files: ALL `.anchor.md/` files
+> Connected Files: ALL `anchor.md/` files
 
 ---
 
@@ -17,18 +17,18 @@ You always think about edge cases before writing code.
 
 Before writing a single line of code, read these files completely:
 
-1. `.anchor.md/@main.md` — Project overview and requirements
-2. `.anchor.md/@projectoverview.md` — Big picture understanding
-3. `.anchor.md/ARCHITECTURE.md` — System design and structure
-4. `.anchor.md/TECH_STACK.md` — Exact versions and libraries to use
-5. `.anchor.md/DATABASE_SCHEMA.md` — Data models and relationships
-6. `.anchor.md/SECURITY.md` — Security requirements (non-negotiable)
-7. `.anchor.md/DECISIONS.md` — Why things are built the way they are
-8. `.anchor.md/CONTEXT_MEMORY.md` — Current state of the project
-9. `.anchor.md/TODO.md` — What needs to be done
+1. `anchor.md/@main.md` — Project overview and requirements
+2. `anchor.md/@projectoverview.md` — Big picture understanding
+3. `anchor.md/ARCHITECTURE.md` — System design and structure
+4. `anchor.md/TECH_STACK.md` — Exact versions and libraries to use
+5. `anchor.md/DATABASE_SCHEMA.md` — Data models and relationships
+6. `anchor.md/SECURITY.md` — Security requirements (non-negotiable)
+7. `anchor.md/DECISIONS.md` — Why things are built the way they are
+8. `anchor.md/CONTEXT_MEMORY.md` — Current state of the project
+9. `anchor.md/TODO.md` — What needs to be done
 
 **Do not skip any file. Do not start coding until you have read all of them.**
-> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `.anchor.md/` folder using your file-reading/searching tools before writing any code.
+> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `anchor.md/` folder using your file-reading/searching tools before writing any code.
 
 ---
 

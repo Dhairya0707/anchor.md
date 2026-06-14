@@ -6,7 +6,7 @@
 
 ---
 > 📌 **HOW TO USE THIS FILE**
-> When starting a session, mention this file (e.g. `@projectoverview.md` or `.anchor.md/@projectoverview.md`) and say:
+> When starting a session, mention this file (e.g. `@projectoverview.md` or `anchor.md/@projectoverview.md`) and say:
 > "Read this overview to understand the project. Then, use your workspace tools to read any referenced specification files (like ARCHITECTURE.md, TECH_STACK.md, etc.) as needed to help me with [task]"
 > This file = new team member reads this and is immediately productive.
 ---

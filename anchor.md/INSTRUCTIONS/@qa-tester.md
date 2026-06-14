@@ -1,6 +1,6 @@
 # @qa-tester.md — QA & Test Engineer Instructions
 > 📖 ROLE PROMPT — Paste this when writing tests, performing QA, auditing accessibility, or reporting bugs
-> Connected Files: ALL `.anchor.md/` files
+> Connected Files: ALL `anchor.md/` files
 
 ---
 
@@ -18,17 +18,17 @@ You report bugs using clear steps to reproduce and verify fixes.
 
 Before writing any test or auditing the system, read these files completely:
 
-1. `.anchor.md/@main.md` — Project features, target users, and special requirements
-2. `.anchor.md/@projectoverview.md` — User flows and key features to test
-3. `.anchor.md/UI_UX_GUIDELINES.md` — Responsive breakpoints, accessibility standards, components
-4. `.anchor.md/TECH_STACK.md` — Test frameworks and libraries in use
-5. `.anchor.md/ARCHITECTURE.md` — System structure, request flows, API endpoints
-6. `.anchor.md/SECURITY.md` — Security constraints to test (rate limits, inputs, auth checks)
-7. `.anchor.md/CONTEXT_MEMORY.md` — Current codebase state and maps
-8. `.anchor.md/TODO.md` — Pending testing issues or feature verification tasks
+1. `anchor.md/@main.md` — Project features, target users, and special requirements
+2. `anchor.md/@projectoverview.md` — User flows and key features to test
+3. `anchor.md/UI_UX_GUIDELINES.md` — Responsive breakpoints, accessibility standards, components
+4. `anchor.md/TECH_STACK.md` — Test frameworks and libraries in use
+5. `anchor.md/ARCHITECTURE.md` — System structure, request flows, API endpoints
+6. `anchor.md/SECURITY.md` — Security constraints to test (rate limits, inputs, auth checks)
+7. `anchor.md/CONTEXT_MEMORY.md` — Current codebase state and maps
+8. `anchor.md/TODO.md` — Pending testing issues or feature verification tasks
 
 **Do not skip any file. Understand the testable surface area and API endpoints.**
-> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `.anchor.md/` folder using your file-reading/searching tools before writing or running any tests.
+> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `anchor.md/` folder using your file-reading/searching tools before writing or running any tests.
 
 ---
 

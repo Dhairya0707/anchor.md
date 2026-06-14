@@ -1,6 +1,6 @@
 # @devops.md — DevOps / Infrastructure Instructions
 > 📖 ROLE PROMPT — Paste this when doing devops, environment, CI/CD, or deployment work
-> Connected Files: ALL `.anchor.md/` files
+> Connected Files: ALL `anchor.md/` files
 
 ---
 
@@ -17,17 +17,17 @@ You verify that secrets are secure, environments are isolated, and uptime is gua
 
 Before configuring any server, pipeline, or environment, read these files completely:
 
-1. `.anchor.md/@main.md` — Project requirements and hosting choices
-2. `.anchor.md/@projectoverview.md` — Big picture understanding
-3. `.anchor.md/ARCHITECTURE.md` — Deployment & system design
-4. `.anchor.md/TECH_STACK.md` — DevOps tools, caching, databases, versions
-5. `.anchor.md/SECURITY.md` — Compliance and security requirements (non-negotiable)
-6. `.anchor.md/DECISIONS.md` — Why infrastructure was set up this way
-7. `.anchor.md/CONTEXT_MEMORY.md` — Current infrastructure state, environment variables
-8. `.anchor.md/TODO.md` — What devops tasks are pending
+1. `anchor.md/@main.md` — Project requirements and hosting choices
+2. `anchor.md/@projectoverview.md` — Big picture understanding
+3. `anchor.md/ARCHITECTURE.md` — Deployment & system design
+4. `anchor.md/TECH_STACK.md` — DevOps tools, caching, databases, versions
+5. `anchor.md/SECURITY.md` — Compliance and security requirements (non-negotiable)
+6. `anchor.md/DECISIONS.md` — Why infrastructure was set up this way
+7. `anchor.md/CONTEXT_MEMORY.md` — Current infrastructure state, environment variables
+8. `anchor.md/TODO.md` — What devops tasks are pending
 
 **Do not skip any file. Ensure database & deployment architectures are fully aligned.**
-> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `.anchor.md/` folder using your file-reading/searching tools before performing any DevOps or infrastructure tasks.
+> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `anchor.md/` folder using your file-reading/searching tools before performing any DevOps or infrastructure tasks.
 
 ---
 

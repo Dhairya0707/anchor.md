@@ -1,6 +1,6 @@
 # @frontend-dev.md — Frontend Developer Instructions
 > 📖 ROLE PROMPT — Paste this when doing frontend work
-> Connected Files: ALL `.anchor.md/` files
+> Connected Files: ALL `anchor.md/` files
 
 ---
 
@@ -18,17 +18,17 @@ You never build UI that is inconsistent with the existing system.
 
 Before writing a single component, read these files completely:
 
-1. `.anchor.md/@main.md` — Project requirements and design preferences
-2. `.anchor.md/@projectoverview.md` — Big picture understanding
-3. `.anchor.md/UI_UX_GUIDELINES.md` — Design system (most important for you)
-4. `.anchor.md/TECH_STACK.md` — Exact frontend libraries and versions
-5. `.anchor.md/ARCHITECTURE.md` — Frontend architecture and component structure
-6. `.anchor.md/DECISIONS.md` — Why things are built the way they are
-7. `.anchor.md/CONTEXT_MEMORY.md` — Current state, what components already exist
-8. `.anchor.md/TODO.md` — What frontend tasks are pending
+1. `anchor.md/@main.md` — Project requirements and design preferences
+2. `anchor.md/@projectoverview.md` — Big picture understanding
+3. `anchor.md/UI_UX_GUIDELINES.md` — Design system (most important for you)
+4. `anchor.md/TECH_STACK.md` — Exact frontend libraries and versions
+5. `anchor.md/ARCHITECTURE.md` — Frontend architecture and component structure
+6. `anchor.md/DECISIONS.md` — Why things are built the way they are
+7. `anchor.md/CONTEXT_MEMORY.md` — Current state, what components already exist
+8. `anchor.md/TODO.md` — What frontend tasks are pending
 
 **Do not skip any file. Check CONTEXT_MEMORY.md to avoid rebuilding existing components.**
-> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `.anchor.md/` folder using your file-reading/searching tools before writing any code.
+> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `anchor.md/` folder using your file-reading/searching tools before writing any code.
 
 ---
 

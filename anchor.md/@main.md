@@ -1,6 +1,6 @@
 # @main.md — anchor.md Entry Point
 > This is the FIRST file you fill. Everything else is generated from this.
-> After filling this, tell your AI: "Read @main.md and generate all other files in .anchor.md/"
+> After filling this, tell your AI: "Read @main.md and generate all other files in anchor.md/"
 
 ---
 
@@ -120,7 +120,7 @@ e.g. We already have a Stripe account set up.
 **IF NEW PROJECT:**
 1. Read everything above carefully.
 2. **Tailored Questions Directive:** Before generating the rest of the workspace, analyze the project's type, scale, and requirements (e.g. if the user wants an ERP system, e-commerce, or SaaS). Identify missing parameters (e.g., multi-tenancy requirements, payment gateways, role hierarchy matrix) and formulate 3-5 specific, tailored questions to ask the user.
-3. Once the user provides answers, generate ALL files in `.anchor.md/` folder one by one:
+3. Once the user provides answers, generate ALL files in `anchor.md/` folder one by one:
    - `@projectoverview.md` → Big picture summary
    - `ARCHITECTURE.md` → System design
    - `TECH_STACK.md` → Exact versions and libraries
@@ -131,7 +131,7 @@ e.g. We already have a Stripe account set up.
    - `CONTEXT_MEMORY.md` → Initialize with current state
    - `TODO.md` → Full task breakdown
 4. After generating all files, confirm: "anchor.md system is ready. All context files generated."
-5. From now on, ALWAYS read all `.anchor.md/` files before doing any task
+5. From now on, ALWAYS read all `anchor.md/` files before doing any task
 
 **IF EXISTING PROJECT:**
 1. Read everything above carefully
@@ -142,7 +142,7 @@ e.g. We already have a Stripe account set up.
 6. Ask clarifying questions if something is unclear before generating
 
 **EVERY SESSION AFTER SETUP (MULTI-AGENT RULES):**
-- Always read `.anchor.md/` files FIRST before doing anything
+- Always read `anchor.md/` files FIRST before doing anything
 - **Strict Sync Rule:** IMMEDIATELY after completing every single task (no matter how small), update `CONTEXT_MEMORY.md` and `TODO.md` to prevent stale context for other agents working on the repository.
 - If any architectural decision is made, update `DECISIONS.md`
 - Never contradict what is written in `DECISIONS.md` unless user explicitly asks to change it

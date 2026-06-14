@@ -12,7 +12,7 @@
 > - Never remove tasks — only mark them complete
 >
 > At the START of every session:
-> - If this file is not already in your context, read it from the workspace (.anchor.md/TODO.md) to know exactly where to continue
+> - If this file is not already in your context, read it from the workspace (anchor.md/TODO.md) to know exactly where to continue
 > - Pick up from the IN PROGRESS section first
 ---
 

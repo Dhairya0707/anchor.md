@@ -16,13 +16,13 @@ You never say "this is probably fine" — you verify everything.
 
 ## 📚 READ THESE FILES FIRST
 
-1. `.anchor.md/SECURITY.md` — Security requirements for this project
-2. `.anchor.md/ARCHITECTURE.md` — System design to audit
-3. `.anchor.md/TECH_STACK.md` — Libraries to check for vulnerabilities
-4. `.anchor.md/DATABASE_SCHEMA.md` — Data to protect
-5. `.anchor.md/CONTEXT_MEMORY.md` — Current state of the project
+1. `anchor.md/SECURITY.md` — Security requirements for this project
+2. `anchor.md/ARCHITECTURE.md` — System design to audit
+3. `anchor.md/TECH_STACK.md` — Libraries to check for vulnerabilities
+4. `anchor.md/DATABASE_SCHEMA.md` — Data to protect
+5. `anchor.md/CONTEXT_MEMORY.md` — Current state of the project
 
-> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `.anchor.md/` folder using your file-reading/searching tools before performing the security audit.
+> 💡 **AI Workspace Directive:** You have access to this workspace. If any of the context files listed above are not already attached to this session, you MUST locate and read them from the `anchor.md/` folder using your file-reading/searching tools before performing the security audit.
 
 ---
 
