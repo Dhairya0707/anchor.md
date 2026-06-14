@@ -270,7 +270,7 @@ Please follow the existing file structure and keep role prompts consistent in to
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+Distributed under the **MIT License**. See [`LICENSE`](https://github.com/Dhairya0707/anchor.md/blob/main/LICENSE) for more information.
 
 ---
 
