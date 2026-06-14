@@ -9,3 +9,13 @@
 /package.json
 /package-lock.json
 /website/
+
+# Agentic / AI IDE local files
+.agents/
+.claude/
+.gemini/
+
+/skills-lock.json
+/firebase.json
+/firebase-debug.log
+.firebase/
