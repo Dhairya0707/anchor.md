@@ -1,0 +1,9 @@
+# .npmignore — controls what gets published to npm
+# npm uses THIS file instead of .gitignore when present.
+# List only what should be EXCLUDED from the npm package.
+
+/.DS_Store
+/SYNCOS_PROJECT_PLAN.md
+/Futuretask.md
+/.git
+/.gitignore

@@ -1,2 +1,10 @@
 /.DS_Store
 /SYNCOS_PROJECT_PLAN.md
+/Futuretask.md
+
+# Internal tooling — not needed on public GitHub
+# (Still included in npm package via .npmignore)
+/cli.js
+/install.sh
+/package.json
+/package-lock.json
