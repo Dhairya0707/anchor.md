@@ -1,0 +1,29 @@
+---
+name: 📖 Documentation / Website
+about: Report an issue or suggest an improvement for the website or documentation
+title: "[Docs] "
+labels: documentation
+assignees: Dhairya0707
+---
+
+## 📖 What needs to be improved?
+
+A clear description of the documentation or website change.
+
+## 📍 Where?
+
+Link to the relevant page or file:
+- Website: https://anchor-md.web.app/...
+- Repository file: `path/to/file.md`
+
+## 💡 Suggested Change
+
+Describe what the updated content should say or look like.
+
+## 🖼️ Screenshots (if applicable)
+
+Add screenshots or mockups for UI-related suggestions.
+
+## ✅ Why is this important?
+
+Briefly explain who this helps and how.

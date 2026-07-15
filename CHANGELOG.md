@@ -7,11 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.3] — 2026-07-08
+
+### Changed
+- Updated `README.md` to document the new `export`, `status`, and `init` CLI commands.
+
+---
+
+## [1.0.2] — 2026-07-08
+
+### Added
+
+- `npx create-anchor-md export` command to aggregate all local `anchor.md` files into a single, unified `share-to-ai.md` file for browser-based AI chats (Gemini app, ChatGPT, Claude Projects).
+- Automatic `.gitignore` management for the generated `share-to-ai.md` file.
+- `npx create-anchor-md status` command to run diagnostics health checks, check for template placeholders, and output roadmap statistics.
+- Refactored command-line routing system support inside CLI.
+
+---
+
+## [1.0.1] — 2026-06-14
+
+### Changed
+
+- Updated package metadata, homepage links, and publishing setup.
+
+---
+
 ## [1.0.0] — 2024-06-14
 
 ### 🎉 Initial Release
 
 #### Added
+
 - Core `anchor.md/` folder structure with 10 context files
 - `@main.md` — project entry point for AI agents
 - `@projectoverview.md` — AI-generated project summary template
@@ -42,6 +69,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
+
 - Interactive CLI (`--interactive` mode with guided prompts)
 - VS Code Extension for one-click initialization
 - Team sync mode (shared read-only context via URL)
@@ -51,4 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[1.0.3]: https://github.com/Dhairya0707/anchor.md/releases/tag/v1.0.3
+[1.0.2]: https://github.com/Dhairya0707/anchor.md/releases/tag/v1.0.2
+[1.0.1]: https://github.com/Dhairya0707/anchor.md/releases/tag/v1.0.1
 [1.0.0]: https://github.com/Dhairya0707/anchor.md/releases/tag/v1.0.0

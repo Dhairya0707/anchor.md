@@ -8,7 +8,7 @@
 /install.sh
 /package.json
 /package-lock.json
-/website/
+# /website/
 
 # Agentic / AI IDE local files
 .agents/
@@ -19,3 +19,15 @@
 /firebase.json
 /firebase-debug.log
 .firebase/
+
+# anchor.md share bundle
+share-to-ai.md
+
+# Website env files — keep secrets out of git
+/website/.env
+/website/.env.local
+/website/.env*.local
+
+# Website build output & Next.js cache
+/website/out/
+/website/.next/

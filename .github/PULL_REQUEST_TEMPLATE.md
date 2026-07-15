@@ -12,13 +12,23 @@ Closes #<!-- issue number -->
 - [ ] 💡 New feature
 - [ ] 📝 Documentation / template improvement
 - [ ] 🎨 New role prompt
+- [ ] 🌐 Website change (Next.js / React / Tailwind)
 - [ ] 🔧 Chore / refactor
+
+## 📂 Affected Area
+
+- [ ] CLI package (`cli.js`, `install.sh`, npm)
+- [ ] Context templates (`anchor.md/`)
+- [ ] Website (`website/`)
+- [ ] Documentation (README, CONTRIBUTING, etc.)
+- [ ] GitHub config (templates, CI, etc.)
 
 ## ✅ Checklist
 
-- [ ] My changes follow the existing file structure and tone
-- [ ] I've tested the CLI locally if applicable (`node cli.js`)
-- [ ] Role prompts are directive and consistent with existing prompts
+- [ ] My changes follow the existing file structure and conventions
+- [ ] **CLI changes:** I tested locally (`node cli.js`)
+- [ ] **Website changes:** I ran `npm run lint` and verified in browser
+- [ ] Role prompts are directive and consistent with existing prompts (if applicable)
 - [ ] I've updated `CHANGELOG.md` if this is a notable change
 - [ ] No secrets or personal data are included
 

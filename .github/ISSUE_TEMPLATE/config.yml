@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/Dhairya0707/anchor.md/discussions
+    about: Ask questions, share ideas, or get help with using anchor.md
+  - name: 📖 Documentation
+    url: https://anchor-md.web.app
+    about: Check the website for guides and documentation
+  - name: 📦 npm Package
+    url: https://www.npmjs.com/package/create-anchor-md
+    about: View the package on npm

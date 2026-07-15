@@ -10,6 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D16-brightgreen?style=for-the-badge&logo=node.js)](https://nodejs.org)
 [![GitHub Stars](https://img.shields.io/github/stars/Dhairya0707/anchor.md?style=for-the-badge&logo=github)](https://github.com/Dhairya0707/anchor.md/stargazers)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge&logo=github)](CONTRIBUTING.md)
 
 <br/>
 
@@ -76,6 +77,33 @@ cp -r anchor.md/anchor.md /path/to/your-project/
 ```
 
 > **After any method:** Add `anchor.md/` to your `.gitignore` manually if not done automatically.
+
+---
+
+## 🛠️ CLI Commands
+
+`create-anchor-md` provides commands to manage context and export files for web-based AIs.
+
+### 1. Initialize anchor.md
+```bash
+npx create-anchor-md
+# or: npx create-anchor-md init
+```
+Scaffolds the standard `anchor.md/` folder structure in the current directory and automatically adds it to your `.gitignore`.
+
+### 2. Export Consolidated Context (For Browser AIs)
+```bash
+npx create-anchor-md export
+# or: npx create-anchor-md share
+```
+Compiles all Markdown context files inside the local `anchor.md/` folder into a single unified `share-to-ai.md` file in your root folder. The generated file is automatically added to `.gitignore`. You can drag-and-drop or copy-paste this file into web-based chats (like Gemini, ChatGPT, Claude) to instantly align the session with your stack and active roadmap.
+
+### 3. Check Context Health & Roadmap Status
+```bash
+npx create-anchor-md status
+# or: npx create-anchor-md validate
+```
+Scans the local `anchor.md/` directory to check if files are missing or contain placeholder values. It also parses `TODO.md` to output a breakdown of completed vs. remaining tasks, and fetches active memory notes from `CONTEXT_MEMORY.md`.
 
 ---
 
@@ -233,7 +261,7 @@ anchor.md works with any AI model that can read files from your workspace:
 ```
 Package:   create-anchor-md
 Command:   npx create-anchor-md
-Version:   1.0.0
+Version:   1.0.3
 License:   MIT
 Node:      >= 16.0.0
 ```
@@ -257,15 +285,13 @@ Node:      >= 16.0.0
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions of all kinds are welcome — whether it's improving the CLI, enhancing the [website](website/), writing better templates, or fixing a typo.
 
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feat/your-feature`
-3. **Commit** your changes: `git commit -m 'feat: add your feature'`
-4. **Push** to the branch: `git push origin feat/your-feature`
-5. **Open** a Pull Request
-
-Please follow the existing file structure and keep role prompts consistent in tone and directive style.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide, including:
+- Local setup for both the **CLI package** and **website**
+- Pull request checklist
+- Style guide
+- Code of conduct
 
 ---
 

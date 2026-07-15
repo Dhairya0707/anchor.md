@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+* {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* Premium Blog Typography Styles */
+.blog-prose h1, .blog-prose h2, .blog-prose h3 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+.blog-prose h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 0.5rem;
+}
+.blog-prose p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.blog-prose ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.blog-prose li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.blog-prose pre {
+  background-color: #020617;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  overflow-x: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+}
+.blog-prose code {
+  color: #a5b4fc;
+  font-family: monospace;
+}
+.blog-prose a {
+  color: #818cf8;
+  text-decoration: underline;
+}
+.blog-prose hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 2.5rem 0;
+}
