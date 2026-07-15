@@ -3,15 +3,11 @@
 import { useState, useEffect, useRef } from "react";
 import { 
   Globe, 
-  X, 
-  Link2, 
-  Package, 
   Terminal, 
   Copy, 
   Check, 
   Folder, 
   File, 
-  ChevronRight, 
   Sparkles, 
   Cpu, 
   GitBranch, 
@@ -19,7 +15,6 @@ import {
   Shield, 
   Layers, 
   Bot, 
-  Menu,
   GitPullRequest,
   Heart
 } from "lucide-react";
@@ -307,7 +302,7 @@ const SCENARIOS: {
   },
 ];
 
-function ChatBubble({ msg, isAlt }: { msg: SimMsg; isAlt: boolean }) {
+function ChatBubble({ msg }: { msg: SimMsg }) {
   if (msg.role === "terminal") {
     return (
       <div className="w-full bg-black border border-white/10 rounded-xl p-4 font-mono text-[11px] text-green-400 whitespace-pre leading-relaxed">
@@ -517,7 +512,7 @@ function AIChatSimulation() {
               >
                 {msgs.slice(0, step).map((msg, i) => (
                   <div key={i} style={{ animation: "fadeSlideIn 0.3s ease both" }}>
-                    <ChatBubble msg={msg} isAlt={activeTab !== 0} />
+                    <ChatBubble msg={msg} />
                   </div>
                 ))}
                 {showTyping && (
@@ -774,11 +769,14 @@ export default function LandingPage() {
   };
 
   const trackEvent = (action: string, category: string, label: string) => {
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("event", action, {
-        event_category: category,
-        event_label: label,
-      });
+    if (typeof window !== "undefined") {
+      const win = window as unknown as { gtag?: (event: string, action: string, params: Record<string, unknown>) => void };
+      if (win.gtag) {
+        win.gtag("event", action, {
+          event_category: category,
+          event_label: label,
+        });
+      }
     }
   };
 
@@ -804,7 +802,7 @@ export default function LandingPage() {
       } else {
         alert("Something went wrong. Please try again.");
       }
-    } catch (err) {
+    } catch {
       alert("Failed to submit form. Please check your network connection.");
     } finally {
       setSending(false);
@@ -843,7 +841,7 @@ export default function LandingPage() {
       } else {
         alert("Something went wrong. Please try again.");
       }
-    } catch (err) {
+    } catch {
       alert("Failed to subscribe. Please check your network connection.");
     } finally {
       setSubbing(false);
